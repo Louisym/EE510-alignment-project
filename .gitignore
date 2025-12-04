@@ -26,6 +26,8 @@ outputs/*/checkpoint-*/
 *.safetensors
 *.bin
 *.pth
+*.pt
+experiments/*/checkpoint-*/
 
 # IDE
 .vscode/
