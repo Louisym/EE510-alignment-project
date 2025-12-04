@@ -1,0 +1,82 @@
+═══════════════════════════════════════════════════════════════════════════════
+  📋 PRE-PRESENTATION CHECKLIST - EE510 Probability Theory Q&A System
+═══════════════════════════════════════════════════════════════════════════════
+
+BEFORE YOU START
+═══════════════════════════════════════════════════════════════════════════════
+[ ] Application is running: http://127.0.0.1:7860
+[ ] Browser window is open and ready
+[ ] Visualizations folder open in file explorer
+[ ] This checklist printed or visible
+
+TESTING (5 MINUTES BEFORE)
+═══════════════════════════════════════════════════════════════════════════════
+[ ] Click "🚀 Load System" button (wait 1-2 min)
+[ ] See "System loaded successfully" message
+[ ] Test Question 1: "What is conditional probability?"
+[ ] Test with RAG enabled - verify answer appears
+[ ] Go to Model Comparison tab
+[ ] Test same question - verify 3 different answers
+[ ] Go to System Statistics tab - verify data shows correctly
+
+VISUALIZATIONS READY
+═══════════════════════════════════════════════════════════════════════════════
+[ ] model_evaluation_comparison.png (main results chart)
+[ ] experiments/svd_lora/training_results/comparison_random_vs_svd.png
+[ ] outputs/grpo/plots/grpo_training_dashboard.png
+[ ] outputs/grpo/loss_variance_analysis.png
+
+DEMO QUESTIONS PREPARED
+═══════════════════════════════════════════════════════════════════════════════
+1. What is conditional probability?
+2. What is the content of the Central Limit Theorem?
+3. Explain the Markov property
+4. What is a σ-algebra?
+
+KEY NUMBERS TO REMEMBER
+═══════════════════════════════════════════════════════════════════════════════
+Base Model:         0.231 reward
+SFT Random:         0.253 reward  (+9.5%)
+SFT SVD:            0.302 reward  (+30.8%)
+GRPO Final:         0.359 reward  (+55.5%) ⭐
+
+SVD vs Random improvement: +19.5%
+Training time: 3.5 hours
+Training samples: 81 QA pairs
+Knowledge base: 8 documents
+
+TALKING POINTS
+═══════════════════════════════════════════════════════════════════════════════
+1. Progressive improvement strategy (Base → SVD → GRPO)
+2. SVD initialization preserves pre-trained knowledge
+3. GRPO aligns model with mathematical rigor
+4. RAG grounds answers in textbook knowledge
+5. 55.5% overall performance improvement
+
+DEMO FLOW
+═══════════════════════════════════════════════════════════════════════════════
+1. Show System Statistics tab (training data, performance table)
+2. Ask a question in Q&A tab (with RAG enabled)
+3. Show Model Comparison tab (same question, 3 models)
+4. Show key visualizations:
+   - Overall results (model_evaluation_comparison.png)
+   - SVD vs Random comparison
+   - GRPO training curves
+5. Highlight 55.5% improvement
+
+EMERGENCY CONTACTS
+═══════════════════════════════════════════════════════════════════════════════
+If app crashes:     ./start_app.sh
+If port busy:       pkill -f "python.*app.py" && ./start_app.sh
+Check status:       ps aux | grep app.py
+
+DOCUMENTATION FILES
+═══════════════════════════════════════════════════════════════════════════════
+README_APP.md              - Full application guide
+PRESENTATION_SUMMARY.md    - Quick reference guide
+SYSTEM_STATUS.md           - System status and specs
+This file                  - Quick checklist
+
+═══════════════════════════════════════════════════════════════════════════════
+  ✅ ALL SYSTEMS GO! GOOD LUCK! 🚀
+═══════════════════════════════════════════════════════════════════════════════

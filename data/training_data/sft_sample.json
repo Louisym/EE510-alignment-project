@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is the definition of conditional probability?",
+    "answer": "Conditional probability is the probability of an event A occurring given that another event B has already occurred. It is denoted as P(A|B) and calculated using the formula: P(A|B) = P(A ∩ B) / P(B), where P(B) > 0.",
+    "source": "Leon-Garcia Chapter 2.4"
+  },
+  {
+    "question": "Explain the concept of a random variable.",
+    "answer": "A random variable is a function that maps outcomes from a sample space to real numbers. There are two types: discrete random variables (taking countable values) and continuous random variables (taking values in an interval). Random variables allow us to work with numerical outcomes of random experiments.",
+    "source": "Leon-Garcia Chapter 3"
+  },
+  {
+    "question": "State Bayes' theorem and explain its significance.",
+    "answer": "Bayes' theorem states that P(A|B) = P(B|A)P(A) / P(B). It allows us to update our beliefs about the probability of an event A given new evidence B. This is fundamental in statistical inference, machine learning, and decision theory as it provides a principled way to incorporate prior knowledge with observed data.",
+    "source": "Leon-Garcia Chapter 2.4.1"
+  }
+]

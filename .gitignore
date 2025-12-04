@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Claude Code
+.claude/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model checkpoints and weights (too large for GitHub)
+outputs/*/checkpoint-*/
+*.pt.tmp
+*.safetensors
+*.bin
+*.pth
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

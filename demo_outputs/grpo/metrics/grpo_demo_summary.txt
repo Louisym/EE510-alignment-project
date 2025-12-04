@@ -1,0 +1,14 @@
+======================================================================
+TRAINING SUMMARY REPORT: grpo_demo
+======================================================================
+
+Total training steps: 59
+Total epochs: 2
+
+GRPO Metrics:
+  Initial mean reward: 0.4961
+  Final mean reward: 0.7954
+  Best mean reward: 0.7954
+  Improvement: 60.33%
+
+======================================================================

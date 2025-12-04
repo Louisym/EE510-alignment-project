@@ -1,0 +1,1590 @@
+======================================================================
+SVD Analysis Report (Rank 16)
+======================================================================
+
+Total layers: 196
+
+Reconstruction Error Statistics:
+  Mean:   0.0000
+  Median: 0.0000
+  Min:    0.0000
+  Max:    0.0000
+
+Energy Ratio Statistics:
+  Mean:   100.00%
+  Median: 100.00%
+  Min:    100.00%
+  Max:    100.00%
+
+======================================================================
+Per-Layer Analysis:
+======================================================================
+
+model.layers.0.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.15613014996051788, 0.06343114376068115, 0.04928334429860115, 0.037558600306510925, 0.03619634732604027]
+
+model.layers.0.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3721201717853546, 0.07366564124822617, 0.06810426712036133, 0.05503217503428459, 0.0513007789850235]
+
+model.layers.0.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.37654951214790344, 0.09377996623516083, 0.07680481672286987, 0.06208066642284393, 0.06064129248261452]
+
+model.layers.0.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05641695484519005, 0.02294475957751274, 0.022232910618185997, 0.015273118391633034, 0.01242179423570633]
+
+model.layers.0.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.1787000447511673, 0.04734551161527634, 0.03223610669374466, 0.02970409393310547, 0.023478956893086433]
+
+model.layers.0.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.16161543130874634, 0.04520901292562485, 0.03354586288332939, 0.031111085787415504, 0.029692133888602257]
+
+model.layers.0.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05970436707139015, 0.021428082138299942, 0.01894182711839676, 0.013319072313606739, 0.009963763877749443]
+
+model.layers.1.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.20373964309692383, 0.05991092696785927, 0.03881397470831871, 0.026790110394358635, 0.023934174329042435]
+
+model.layers.1.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.34083640575408936, 0.10559411346912384, 0.05192938446998596, 0.05010032281279564, 0.04033936932682991]
+
+model.layers.1.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3826296925544739, 0.11458561569452286, 0.07099549472332001, 0.053733378648757935, 0.047944214195013046]
+
+model.layers.1.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04450773447751999, 0.020803188905119896, 0.01832284964621067, 0.01527559943497181, 0.01495394017547369]
+
+model.layers.1.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.17456072568893433, 0.04721948131918907, 0.03172151371836662, 0.02790800854563713, 0.02281695231795311]
+
+model.layers.1.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.12453436106443405, 0.045768894255161285, 0.03584878519177437, 0.031125469133257866, 0.03026558645069599]
+
+model.layers.1.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04878542199730873, 0.02923363633453846, 0.01818336546421051, 0.014428975991904736, 0.013018540106713772]
+
+model.layers.10.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.20843210816383362, 0.09963013231754303, 0.038110215216875076, 0.03258159011602402, 0.024504194036126137]
+
+model.layers.10.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2942146956920624, 0.1771906316280365, 0.11136164516210556, 0.08190277963876724, 0.06503404676914215]
+
+model.layers.10.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.35877320170402527, 0.16986636817455292, 0.08203917741775513, 0.06660635769367218, 0.06352043896913528]
+
+model.layers.10.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.042128052562475204, 0.024975452572107315, 0.022472476586699486, 0.018636129796504974, 0.01449462678283453]
+
+model.layers.10.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.1644911915063858, 0.07785185426473618, 0.04509042203426361, 0.03879820927977562, 0.034013547003269196]
+
+model.layers.10.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.09814722090959549, 0.07609440386295319, 0.05191929638385773, 0.04125243425369263, 0.035536058247089386]
+
+model.layers.10.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04813789948821068, 0.04247462749481201, 0.01610540971159935, 0.013235590420663357, 0.011914968490600586]
+
+model.layers.11.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2248488813638687, 0.086359404027462, 0.039760906249284744, 0.03390447422862053, 0.02598341554403305]
+
+model.layers.11.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.26288744807243347, 0.19506144523620605, 0.11194663494825363, 0.08565260469913483, 0.0851430892944336]
+
+model.layers.11.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3543761372566223, 0.12544578313827515, 0.10133805125951767, 0.07962746918201447, 0.06505785882472992]
+
+model.layers.11.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.03888702020049095, 0.024439867585897446, 0.017715178430080414, 0.017242124304175377, 0.01566016674041748]
+
+model.layers.11.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.17076946794986725, 0.056338876485824585, 0.052499573677778244, 0.03545491397380829, 0.03238769993185997]
+
+model.layers.11.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.11828815937042236, 0.06691103428602219, 0.05594225972890854, 0.041265953332185745, 0.038143038749694824]
+
+model.layers.11.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05308755859732628, 0.033747751265764236, 0.015600170008838177, 0.013940921984612942, 0.01194080337882042]
+
+model.layers.12.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2321769744157791, 0.06901812553405762, 0.04239813610911369, 0.03714589402079582, 0.02336159162223339]
+
+model.layers.12.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2963801622390747, 0.16852883994579315, 0.13287955522537231, 0.08984099328517914, 0.0780259370803833]
+
+model.layers.12.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.35377439856529236, 0.18196110427379608, 0.09470201283693314, 0.07847528159618378, 0.06613844633102417]
+
+model.layers.12.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.03828539699316025, 0.02177150547504425, 0.01931861788034439, 0.018077734857797623, 0.015722528100013733]
+
+model.layers.12.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.18765409290790558, 0.060639575123786926, 0.04697641357779503, 0.031100094318389893, 0.0277196504175663]
+
+model.layers.12.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.11549984663724899, 0.07260377705097198, 0.04849892109632492, 0.042918283492326736, 0.03459476679563522]
+
+model.layers.12.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05558285862207413, 0.03808444365859032, 0.019895389676094055, 0.01563684642314911, 0.01074178796261549]
+
+model.layers.13.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2365226000547409, 0.087005116045475, 0.043947942554950714, 0.03384033590555191, 0.02314358577132225]
+
+model.layers.13.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.31881242990493774, 0.166224405169487, 0.08602827042341232, 0.08458054065704346, 0.07363668829202652]
+
+model.layers.13.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.36288103461265564, 0.18917550146579742, 0.11300920695066452, 0.07337690144777298, 0.07096827030181885]
+
+model.layers.13.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05427233874797821, 0.03135007247328758, 0.01940947398543358, 0.017246760427951813, 0.013401854783296585]
+
+model.layers.13.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.21141551434993744, 0.053325105458498, 0.03840295597910881, 0.02896152064204216, 0.027230963110923767]
+
+model.layers.13.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.14783665537834167, 0.06873248517513275, 0.04396653547883034, 0.043432511389255524, 0.035967953503131866]
+
+model.layers.13.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05950621888041496, 0.03387611731886864, 0.02055472694337368, 0.020429059863090515, 0.013665148988366127]
+
+model.layers.14.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2642599940299988, 0.05172078311443329, 0.02830991894006729, 0.025222526863217354, 0.020450273528695107]
+
+model.layers.14.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.32819467782974243, 0.12417656928300858, 0.11202502250671387, 0.08750095963478088, 0.07576198130846024]
+
+model.layers.14.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.38345345854759216, 0.13684342801570892, 0.08840358257293701, 0.08226649463176727, 0.06227520480751991]
+
+model.layers.14.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.0524168461561203, 0.021600373089313507, 0.018142804503440857, 0.01725144498050213, 0.013832950964570045]
+
+model.layers.14.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.18343989551067352, 0.06366018950939178, 0.05010594427585602, 0.040516793727874756, 0.030488116666674614]
+
+model.layers.14.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.12043207883834839, 0.08229082077741623, 0.04528220742940903, 0.03892086446285248, 0.03397352248430252]
+
+model.layers.14.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.06149425730109215, 0.034518416970968246, 0.022054195404052734, 0.014853662811219692, 0.010023873299360275]
+
+model.layers.15.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.27042123675346375, 0.06826476752758026, 0.030997691676020622, 0.024820813909173012, 0.02116703987121582]
+
+model.layers.15.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.317101389169693, 0.14950545132160187, 0.10040067881345749, 0.08869561553001404, 0.0782950222492218]
+
+model.layers.15.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3344825506210327, 0.18261213600635529, 0.10331273078918457, 0.08328600972890854, 0.07135158777236938]
+
+model.layers.15.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.03417029231786728, 0.025013312697410583, 0.018516607582569122, 0.017188357189297676, 0.014216093346476555]
+
+model.layers.15.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.19294579327106476, 0.0632006973028183, 0.058765385299921036, 0.03436557576060295, 0.027770139276981354]
+
+model.layers.15.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.10025311261415482, 0.06877925992012024, 0.04749245196580887, 0.04363413155078888, 0.03599720075726509]
+
+model.layers.15.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.06575920432806015, 0.031940922141075134, 0.019512400031089783, 0.013330470770597458, 0.009769340977072716]
+
+model.layers.16.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2635546326637268, 0.057424575090408325, 0.039386145770549774, 0.031272612512111664, 0.025884157046675682]
+
+model.layers.16.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3190493881702423, 0.15998351573944092, 0.104981429874897, 0.08931735157966614, 0.07633497565984726]
+
+model.layers.16.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.39979881048202515, 0.13496354222297668, 0.08109334856271744, 0.07055521756410599, 0.06405892223119736]
+
+model.layers.16.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05043630674481392, 0.024568157270550728, 0.01821327582001686, 0.01619257964193821, 0.015053505077958107]
+
+model.layers.16.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.19357872009277344, 0.05647236481308937, 0.041566479951143265, 0.03625369071960449, 0.026881802827119827]
+
+model.layers.16.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.13492053747177124, 0.07293063402175903, 0.0368889719247818, 0.034069277346134186, 0.030600260943174362]
+
+model.layers.16.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.06670084595680237, 0.034405842423439026, 0.019996464252471924, 0.010919000022113323, 0.009961728937923908]
+
+model.layers.17.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2881150543689728, 0.05014390870928764, 0.03340665623545647, 0.025722146034240723, 0.02307124435901642]
+
+model.layers.17.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2820531725883484, 0.17920395731925964, 0.1042863205075264, 0.09453745186328888, 0.08924124389886856]
+
+model.layers.17.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3648701012134552, 0.17481574416160583, 0.10501625388860703, 0.07962990552186966, 0.07157569378614426]
+
+model.layers.17.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.03770164027810097, 0.025709733366966248, 0.019805816933512688, 0.01623356156051159, 0.01557830162346363]
+
+model.layers.17.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.21001259982585907, 0.05990966409444809, 0.04843181371688843, 0.031515348702669144, 0.029338639229536057]
+
+model.layers.17.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.11941630393266678, 0.07570245862007141, 0.04742101579904556, 0.04423873499035835, 0.0394769161939621]
+
+model.layers.17.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.07505098730325699, 0.03278142958879471, 0.023168696090579033, 0.012876887805759907, 0.011336851865053177]
+
+model.layers.18.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2641089856624603, 0.07233303785324097, 0.0498904287815094, 0.03245113790035248, 0.025706907734274864]
+
+model.layers.18.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3548082709312439, 0.1663091480731964, 0.10833613574504852, 0.08841933310031891, 0.07561266422271729]
+
+model.layers.18.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.43557265400886536, 0.12069206684827805, 0.085059255361557, 0.0731089636683464, 0.05965973436832428]
+
+model.layers.18.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.03952070698142052, 0.0298287495970726, 0.026249783113598824, 0.017664745450019836, 0.017255324870347977]
+
+model.layers.18.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.21884757280349731, 0.05954547971487045, 0.04586496204137802, 0.03510067239403725, 0.03397255018353462]
+
+model.layers.18.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.13107065856456757, 0.060777612030506134, 0.05237410217523575, 0.043431397527456284, 0.034714508801698685]
+
+model.layers.18.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.06795565038919449, 0.0381842702627182, 0.02309507317841053, 0.016233831644058228, 0.012752189300954342]
+
+model.layers.19.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.29958802461624146, 0.050389666110277176, 0.03870099410414696, 0.02795783057808876, 0.02293681725859642]
+
+model.layers.19.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.35091230273246765, 0.13808058202266693, 0.10116871446371078, 0.09559790045022964, 0.08157061785459518]
+
+model.layers.19.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.41843488812446594, 0.14578105509281158, 0.12049977481365204, 0.08259119093418121, 0.06815148144960403]
+
+model.layers.19.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.03459881991147995, 0.026698574423789978, 0.022724783048033714, 0.021705860272049904, 0.01857384853065014]
+
+model.layers.19.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.23299020528793335, 0.055399928241968155, 0.042583316564559937, 0.032877203077077866, 0.02744312956929207]
+
+model.layers.19.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.14351029694080353, 0.09154680371284485, 0.06185206398367882, 0.042727675288915634, 0.03613775223493576]
+
+model.layers.19.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.06486379355192184, 0.03871725872159004, 0.026071706786751747, 0.013983520679175854, 0.013372409157454967]
+
+model.layers.2.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.23416782915592194, 0.034971024841070175, 0.029066672548651695, 0.020444754511117935, 0.01861977018415928]
+
+model.layers.2.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3442041873931885, 0.08663816004991531, 0.07302844524383545, 0.05432339757680893, 0.03977851942181587]
+
+model.layers.2.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.42775651812553406, 0.08675002306699753, 0.057044483721256256, 0.0387907475233078, 0.03212611749768257]
+
+model.layers.2.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.023546792566776276, 0.020901257172226906, 0.018384238705039024, 0.01735076867043972, 0.015366950072348118]
+
+model.layers.2.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.13895128667354584, 0.07050418853759766, 0.03622766211628914, 0.035097815096378326, 0.030590875074267387]
+
+model.layers.2.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.07977832853794098, 0.05634162947535515, 0.0483667328953743, 0.04018615931272507, 0.03562342748045921]
+
+model.layers.2.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.044823430478572845, 0.023885313421487808, 0.01693790778517723, 0.013050763867795467, 0.010793876834213734]
+
+model.layers.20.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3191056251525879, 0.041827987879514694, 0.031193971633911133, 0.02875591441988945, 0.024488043040037155]
+
+model.layers.20.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.35231778025627136, 0.15255898237228394, 0.10472732782363892, 0.08985652029514313, 0.0812932699918747]
+
+model.layers.20.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.42675915360450745, 0.1361347883939743, 0.11144325137138367, 0.08597782999277115, 0.07285219430923462]
+
+model.layers.20.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04952332749962807, 0.028086591511964798, 0.023609479889273643, 0.018924226984381676, 0.016317592933773994]
+
+model.layers.20.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.19976136088371277, 0.07873979210853577, 0.057620611041784286, 0.035305578261613846, 0.030916288495063782]
+
+model.layers.20.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.13269324600696564, 0.0876888632774353, 0.04645146429538727, 0.039278093725442886, 0.03535037860274315]
+
+model.layers.20.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.07422778755426407, 0.03503873944282532, 0.025021985173225403, 0.013776288367807865, 0.011898449622094631]
+
+model.layers.21.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.30915364623069763, 0.056905101984739304, 0.038256146013736725, 0.03496966511011124, 0.026021422818303108]
+
+model.layers.21.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.35718926787376404, 0.20491153001785278, 0.1097853034734726, 0.09008025377988815, 0.07644838839769363]
+
+model.layers.21.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.4909419119358063, 0.1282375007867813, 0.0826195478439331, 0.07439258694648743, 0.0585080049932003]
+
+model.layers.21.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04370173066854477, 0.029857367277145386, 0.02471817098557949, 0.018850035965442657, 0.016703061759471893]
+
+model.layers.21.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2418617308139801, 0.04625978320837021, 0.04089866578578949, 0.03154942765831947, 0.027166258543729782]
+
+model.layers.21.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.13898330926895142, 0.08162996172904968, 0.0540105476975441, 0.05017256736755371, 0.03975604102015495]
+
+model.layers.21.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.06352445483207703, 0.047969695180654526, 0.019444696605205536, 0.016046376898884773, 0.011435053311288357]
+
+model.layers.22.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3401576578617096, 0.06313326209783554, 0.033497508615255356, 0.026318704709410667, 0.023692209273576736]
+
+model.layers.22.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.4097452163696289, 0.1499464213848114, 0.11717157065868378, 0.0947084128856659, 0.08032923936843872]
+
+model.layers.22.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.5306531190872192, 0.10489492118358612, 0.0861210972070694, 0.06265394389629364, 0.05847558006644249]
+
+model.layers.22.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.03187426179647446, 0.02812216803431511, 0.022831175476312637, 0.022325916215777397, 0.0196689460426569]
+
+model.layers.22.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.23861777782440186, 0.056009821593761444, 0.03798122704029083, 0.033976439386606216, 0.028779620304703712]
+
+model.layers.22.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.1301538348197937, 0.06687717139720917, 0.050579555332660675, 0.04578473046422005, 0.03836444392800331]
+
+model.layers.22.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.06381456553936005, 0.047576069831848145, 0.026664376258850098, 0.012164377607405186, 0.011712521314620972]
+
+model.layers.23.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.38771313428878784, 0.03976520895957947, 0.02488362230360508, 0.02272956445813179, 0.020258944481611252]
+
+model.layers.23.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.37385329604148865, 0.2565370798110962, 0.10617540031671524, 0.09502851217985153, 0.08900187164545059]
+
+model.layers.23.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.5599733591079712, 0.11623504012823105, 0.10405496507883072, 0.0860159769654274, 0.060217224061489105]
+
+model.layers.23.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.0409390926361084, 0.02745252288877964, 0.020511837676167488, 0.01896311342716217, 0.01751202903687954]
+
+model.layers.23.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.24225497245788574, 0.048606544733047485, 0.0414421446621418, 0.03149689733982086, 0.026438474655151367]
+
+model.layers.23.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.14125485718250275, 0.05224760249257088, 0.04124854877591133, 0.03979926556348801, 0.03712669759988785]
+
+model.layers.23.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.07990245521068573, 0.040766485035419464, 0.018284058198332787, 0.01422298327088356, 0.01114465482532978]
+
+model.layers.24.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.38308626413345337, 0.03360296040773392, 0.03139035776257515, 0.023526843637228012, 0.02304999530315399]
+
+model.layers.24.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.39743611216545105, 0.19339793920516968, 0.11832693219184875, 0.10437751561403275, 0.08684393018484116]
+
+model.layers.24.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.5128974914550781, 0.17665866017341614, 0.09200660139322281, 0.0812031626701355, 0.06858918070793152]
+
+model.layers.24.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04608466476202011, 0.0256294384598732, 0.024441661313176155, 0.024045608937740326, 0.020805109292268753]
+
+model.layers.24.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.24388468265533447, 0.06226760521531105, 0.04498833790421486, 0.037671271711587906, 0.025981789454817772]
+
+model.layers.24.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.14966708421707153, 0.07390038669109344, 0.0566139854490757, 0.0476294681429863, 0.03830603137612343]
+
+model.layers.24.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.08611297607421875, 0.042773958295583725, 0.0157164316624403, 0.012738526798784733, 0.011168037541210651]
+
+model.layers.25.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.41332125663757324, 0.05420450493693352, 0.03276795521378517, 0.02741042524576187, 0.022833621129393578]
+
+model.layers.25.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.4192246198654175, 0.22316452860832214, 0.11332298070192337, 0.09312564134597778, 0.08384238928556442]
+
+model.layers.25.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.5759686231613159, 0.13364484906196594, 0.09274709969758987, 0.07632410526275635, 0.061365243047475815]
+
+model.layers.25.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.03373440355062485, 0.027689527720212936, 0.021983295679092407, 0.019413424655795097, 0.018752403557300568]
+
+model.layers.25.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2693442702293396, 0.05006144568324089, 0.030766461044549942, 0.028503036126494408, 0.023176027461886406]
+
+model.layers.25.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.16800108551979065, 0.06462818384170532, 0.041869617998600006, 0.03852899372577667, 0.03265026584267616]
+
+model.layers.25.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.08081387728452682, 0.04238118231296539, 0.0175629872828722, 0.014576545916497707, 0.013683796860277653]
+
+model.layers.26.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.44494733214378357, 0.04984430968761444, 0.03958764672279358, 0.025508703663945198, 0.02309381403028965]
+
+model.layers.26.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.47796571254730225, 0.1884700357913971, 0.11454670876264572, 0.10197354108095169, 0.08929023146629333]
+
+model.layers.26.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.5952633023262024, 0.1561415195465088, 0.1007966622710228, 0.07550596445798874, 0.06688836216926575]
+
+model.layers.26.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05035466328263283, 0.029584823176264763, 0.0221517663449049, 0.016924304887652397, 0.015203499235212803]
+
+model.layers.26.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.30155420303344727, 0.03645418956875801, 0.03071671351790428, 0.025959119200706482, 0.0207583699375391]
+
+model.layers.26.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.1514393836259842, 0.062295764684677124, 0.04274487495422363, 0.03633971884846687, 0.03135494142770767]
+
+model.layers.26.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.09439803659915924, 0.034218452870845795, 0.016086775809526443, 0.01380262803286314, 0.011712883599102497]
+
+model.layers.27.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.5513873100280762, 0.04053475335240364, 0.025129878893494606, 0.022832486778497696, 0.017136238515377045]
+
+model.layers.27.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.7229289412498474, 0.09367064386606216, 0.07104618102312088, 0.05859428271651268, 0.054823070764541626]
+
+model.layers.27.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.7413305640220642, 0.11475028097629547, 0.0815974548459053, 0.06460648030042648, 0.054912179708480835]
+
+model.layers.27.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.045603733509778976, 0.0235483106225729, 0.02214355580508709, 0.019602233543992043, 0.01793792098760605]
+
+model.layers.27.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3315730094909668, 0.0429389588534832, 0.02523288130760193, 0.019460119307041168, 0.0186103954911232]
+
+model.layers.27.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.17467111349105835, 0.09496810287237167, 0.05159073323011398, 0.04703911393880844, 0.040472306311130524]
+
+model.layers.27.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.09671355783939362, 0.04104894399642944, 0.015795011073350906, 0.012076791375875473, 0.011120992712676525]
+
+model.layers.3.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.23012299835681915, 0.12554484605789185, 0.031161382794380188, 0.026214580982923508, 0.02204662561416626]
+
+model.layers.3.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.4134930372238159, 0.1075296401977539, 0.0819779708981514, 0.06127997860312462, 0.05879231542348862]
+
+model.layers.3.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.4201689064502716, 0.0909942239522934, 0.06965797394514084, 0.06787931174039841, 0.05146125704050064]
+
+model.layers.3.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.023279810324311256, 0.022330548614263535, 0.019115163013339043, 0.016994817182421684, 0.016617875546216965]
+
+model.layers.3.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.1335671842098236, 0.08347425609827042, 0.04806908965110779, 0.04382998123764992, 0.03404274210333824]
+
+model.layers.3.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.08383515477180481, 0.060698818415403366, 0.058942802250385284, 0.046873606741428375, 0.03828558698296547]
+
+model.layers.3.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.0542001947760582, 0.022513044998049736, 0.01691722683608532, 0.013849951326847076, 0.013220572844147682]
+
+model.layers.4.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.18296870589256287, 0.14803850650787354, 0.03557299077510834, 0.023116987198591232, 0.021948136389255524]
+
+model.layers.4.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.36215606331825256, 0.14213183522224426, 0.10326088219881058, 0.06886430829763412, 0.05423993244767189]
+
+model.layers.4.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.4219181537628174, 0.11906716972589493, 0.08214247971773148, 0.053118377923965454, 0.0458492748439312]
+
+model.layers.4.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.025156471878290176, 0.022801196202635765, 0.020557846873998642, 0.016527235507965088, 0.016002152115106583]
+
+model.layers.4.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.12441332638263702, 0.08934345841407776, 0.06606895476579666, 0.0394037663936615, 0.03128476068377495]
+
+model.layers.4.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.10247913748025894, 0.05593527480959892, 0.04595205932855606, 0.04005036875605583, 0.03830099105834961]
+
+model.layers.4.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.05133980140089989, 0.02970273233950138, 0.01463072095066309, 0.011875810101628304, 0.009256109595298767]
+
+model.layers.5.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.26686060428619385, 0.03521633893251419, 0.0259648896753788, 0.021719560027122498, 0.018544167280197144]
+
+model.layers.5.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.35780617594718933, 0.10994897037744522, 0.0875343307852745, 0.06824345141649246, 0.06446240097284317]
+
+model.layers.5.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.40593236684799194, 0.14487776160240173, 0.06879571080207825, 0.05010445415973663, 0.047133494168519974]
+
+model.layers.5.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.036818746477365494, 0.02123621478676796, 0.018342457711696625, 0.012964379973709583, 0.012818432413041592]
+
+model.layers.5.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.14715349674224854, 0.061303846538066864, 0.05503549054265022, 0.03526071831583977, 0.02737039141356945]
+
+model.layers.5.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.10443700104951859, 0.04874490946531296, 0.04069210961461067, 0.03895220905542374, 0.03105240873992443]
+
+model.layers.5.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.050235092639923096, 0.03863019496202469, 0.012713856063783169, 0.010146873071789742, 0.008277672342956066]
+
+model.layers.6.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2831292748451233, 0.03586522489786148, 0.019858893007040024, 0.016010193154215813, 0.015206320211291313]
+
+model.layers.6.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3841817378997803, 0.11670368909835815, 0.07324360311031342, 0.06061076372861862, 0.056360043585300446]
+
+model.layers.6.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.39585262537002563, 0.12509606778621674, 0.07257023453712463, 0.06208893284201622, 0.05200710520148277]
+
+model.layers.6.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.031018685549497604, 0.026462001726031303, 0.020647844299674034, 0.017219124361872673, 0.015543483197689056]
+
+model.layers.6.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.1620139330625534, 0.06253436952829361, 0.045595359057188034, 0.03345712646842003, 0.030235083773732185]
+
+model.layers.6.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.09862643480300903, 0.07247687131166458, 0.052693359553813934, 0.04651310294866562, 0.04085852578282356]
+
+model.layers.6.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.056598082184791565, 0.03230954334139824, 0.012281608767807484, 0.009087960235774517, 0.00765133835375309]
+
+model.layers.7.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.23334786295890808, 0.07136411219835281, 0.031191594898700714, 0.027677396312355995, 0.024861440062522888]
+
+model.layers.7.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3427067697048187, 0.1428610384464264, 0.08217910677194595, 0.07557760179042816, 0.0658426433801651]
+
+model.layers.7.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3493725657463074, 0.1414637267589569, 0.07806611806154251, 0.07038144767284393, 0.0656035915017128]
+
+model.layers.7.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.02863292582333088, 0.024555347859859467, 0.022455716505646706, 0.01832791045308113, 0.016252359375357628]
+
+model.layers.7.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.1510557383298874, 0.08173602819442749, 0.04692422226071358, 0.03017359972000122, 0.029430707916617393]
+
+model.layers.7.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.11979056149721146, 0.0667908787727356, 0.04708091542124748, 0.0376613587141037, 0.031563375145196915]
+
+model.layers.7.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.043086279183626175, 0.0369342677295208, 0.01878635585308075, 0.014280875213444233, 0.013491502031683922]
+
+model.layers.8.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.20928974449634552, 0.09416874498128891, 0.03896476700901985, 0.03045383095741272, 0.02446751669049263]
+
+model.layers.8.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.2675776183605194, 0.2156219184398651, 0.10284904390573502, 0.08992461860179901, 0.07787810266017914]
+
+model.layers.8.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.370163232088089, 0.1211073026061058, 0.10062816739082336, 0.07470115274190903, 0.05880361795425415]
+
+model.layers.8.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.034708768129348755, 0.02111315354704857, 0.019260715693235397, 0.017254779115319252, 0.013950833119452]
+
+model.layers.8.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.1568220555782318, 0.05895576998591423, 0.03743026405572891, 0.03479273244738579, 0.02730526402592659]
+
+model.layers.8.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.11503031104803085, 0.0663323700428009, 0.043880462646484375, 0.043229732662439346, 0.03379759564995766]
+
+model.layers.8.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04433649033308029, 0.031157827004790306, 0.018529551103711128, 0.015351765789091587, 0.011501283384859562]
+
+model.layers.9.mlp.down_proj.lora_A.weight:
+  Shape: [3584, 18944]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.24989239871501923, 0.06864476948976517, 0.03051142394542694, 0.026558401063084602, 0.020955242216587067]
+
+model.layers.9.mlp.gate_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.3543088734149933, 0.12220856547355652, 0.09337709099054337, 0.07741864770650864, 0.06798508763313293]
+
+model.layers.9.mlp.up_proj.lora_A.weight:
+  Shape: [18944, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.40412676334381104, 0.16892001032829285, 0.08783379942178726, 0.06312134116888046, 0.05674314126372337]
+
+model.layers.9.self_attn.k_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04118465632200241, 0.022836416959762573, 0.020465051755309105, 0.020057054236531258, 0.01614580675959587]
+
+model.layers.9.self_attn.o_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.17171770334243774, 0.07638614624738693, 0.03847675770521164, 0.03784335404634476, 0.02933843992650509]
+
+model.layers.9.self_attn.q_proj.lora_A.weight:
+  Shape: [3584, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.10943912714719772, 0.06049690023064613, 0.047340840101242065, 0.03681333363056183, 0.03289813920855522]
+
+model.layers.9.self_attn.v_proj.lora_A.weight:
+  Shape: [512, 3584]
+  Original rank: 16
+  SVD rank: 16
+  Rel error: 0.0000
+  Energy ratio: 100.00%
+  Top 5 singular values: [0.04944520816206932, 0.032772939652204514, 0.02013358846306801, 0.014881711453199387, 0.011921131052076817]
+

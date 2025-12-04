@@ -1,0 +1,24 @@
+======================================================================
+TRAINING SUMMARY REPORT: test_experiment
+======================================================================
+
+Total training steps: 99
+Total epochs: 4
+
+Training Loss:
+  Initial: 2.1000
+  Final: 0.3761
+  Best: 0.3761
+  Improvement: 82.09%
+
+Validation Loss:
+  Best: 0.4971
+  Final: 0.4971
+
+GRPO Metrics:
+  Initial mean reward: 0.5060
+  Final mean reward: 0.7940
+  Best mean reward: 0.7940
+  Improvement: 56.92%
+
+======================================================================

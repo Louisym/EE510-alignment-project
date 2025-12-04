@@ -1,0 +1,28 @@
+{
+  "training_config": {
+    "base_model": "Qwen/Qwen2.5-Math-7B-Instruct",
+    "sft_checkpoint": "SVD-init LoRA",
+    "training_samples": 81,
+    "total_steps": 162,
+    "epochs": 2,
+    "duration_hours": 3.5
+  },
+  "epoch1": {
+    "mean_reward_avg": 0.48728303238749504,
+    "mean_reward_std": 0.05082591991954322,
+    "mean_reward_best": 0.5898846387863159,
+    "max_reward_peak": 0.6820588111877441
+  },
+  "epoch2": {
+    "mean_reward_avg": 0.4796301983296871,
+    "mean_reward_std": 0.06999104914199322,
+    "mean_reward_best": 0.5985822081565857,
+    "max_reward_peak": 0.671999990940094
+  },
+  "overall": {
+    "mean_reward_avg": 0.4834566153585911,
+    "mean_reward_best": 0.5985822081565857,
+    "max_reward_best": 0.6820588111877441,
+    "epoch1_to_epoch2_improvement_pct": -1.5705110888659612
+  }
+}
